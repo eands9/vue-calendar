@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "vuecalendar",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authvuecalendaref4a7e65",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

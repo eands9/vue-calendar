@@ -1,0 +1,15 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type calEvent @model {
+  id: ID!
+  name: String!
+  details: String
+  start: String
+  end: String
+  color: String
+  }
+  
